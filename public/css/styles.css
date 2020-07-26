@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+}
+/* header */
+.container{
+    max-width: 100%;
+    display: block;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #696969;
+}
+.menu-top ul li{
+    display: inline-block;
+    padding: 25px 25px;
+    text-transform: uppercase;
+    color: white;
+    font-size: medium;
+   
+}
+.menu ul li a{
+    color: white;
+}
+
+.menu{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.menu img{
+    margin: 0 70px;
+}
+.img-fluid{
+    width: 122px;
+    height: 106px;
+}
+
+#HEADER{
+    background-image: url(../images/massage2-sliderbg.jpg);
+    height: 105vh;
+       
+}
+.text{
+    text-align: center;
+}
+
+#text1{
+    font-size: 80px;
+    visibility: visible;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+
+}
+#text2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+.container-text3 a{
+    text-align: center;
+    line-height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 22px;
+    border-color: rgb(244, 196, 126);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: white;
+}
+.container-text3 a:hover{
+    background-color:  rgb(244, 196, 126);
+    color: white;
+}
+.icon{
+    text-align: center;
+    padding-top: 100px;
+}
+.icon a h6{
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ecdbca;
+    padding-bottom: 30px;
+}
+.text4{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 200;
+    letter-spacing: 0;
+
+}
+
+.container-table{
+    width: 75%;
+    margin: 50px auto 0;
+    display: table;
+    box-sizing: border-box;
+    max-width: 1700px;
+}
+#row1{
+    margin: 40px 0;
+    width: auto;
+    display: flex;
+    text-align: center;
+  
+}
+#image-1{
+    background-image: url(../images/massage2-about-icon1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 150px 5% 0;
+    width: 25%;
+   
+   
+}
+#image-2{
+    background-image: url(../images/massage2-about-icon2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 150px 5% 0;
+    width: 25%;
+
+}
+#image-3{
+    background-image: url(../images/massage2-about-icon3.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 150px 5% 0;
+    width: 25%;
+
+}
+#image-4{
+    background-image: url(../images/massage2-about-icon4.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 150px 5% 0;
+    width: 25%;
+    
+
+}
+.buttom-align{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.buttom-label{
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px 18px;
+    border-color: rgb(244, 196, 126);
+    color: black;
+    
+
+}
+.buttom-label:hover{
+    background-color: rgb(244, 196, 126);
+    color: white;
+}
+#row2{
+    display: flex;
+}
+#row2 img:hover{
+    width: 105%;
+}
+.row2-icon{
+    background-image: url(../images/massage2-icon1.png);
+    background-repeat: no-repeat;
+    /* padding: 19px 0 0 55px; */
+    padding-bottom: 20px;
+}
+.row2-icon2{
+    background-image: url(../images/massage2-icon1.png);
+    background-repeat: no-repeat;
+    /* padding: 19px 0 0 55px; */
+    padding-bottom: 20px;
+}
+.row2-icon2 h6{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    color: #ecdbca;
+    
+}
+
+.row2-icon h6{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    color: #ecdbca;
+}
+.row2-text{
+    padding: 0 10% 0 0;
+    padding-bottom:  50px;
+}
+.image-frame a img{
+    width: 98%;
+    border: solid 1px white;
+    padding-bottom: 20px; 
+}
+.image-frame{
+    margin: 50px auto 0;
+    width: 75%;    
+}
+.container-content{
+    background-image: url(../images/massage2-sectionbg2.png);
+   background-size: contain;
+}
+.text5 h4{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.text5{
+    margin: 0 1% 40px;
+}
+#border-1{
+    padding: 60px 4% 45px;
+    border: 1px solid #f4c47e;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+#border-2{
+    padding: 60px 4% 45px;
+    border: 1px solid #f4c47e;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+#border-3{
+    padding: 60px 4% 45px;
+    border: 1px solid #f4c47e;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+#row3{
+    text-align: center;
+    display: flex;
+    width: auto;
+    margin-left: 230px;
+}
+.theme{
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #f4c47e;
+
+}
+.no-line{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ecdbca;
+}
+.google-front{
+    
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.wrapper-inner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrpper-icon h6{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.wrpper-icon h1{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.row4{
+    margin-left: 150px;
+}
+/* footer */
+#Footer{
+    background-color: #f7e9dc ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: block;
+    
+
+}
+#Footer .widgets_wrapper{
+    padding: 110px 0 0;
+}
+.copyright{
+    color: #e0bc92;
+    text-align: center;
+}
+footer{
+    margin-top: 5400px;
+    
+}
+element.style {
+    height: 50px;
+}
+h1{
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+}
+h4{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
